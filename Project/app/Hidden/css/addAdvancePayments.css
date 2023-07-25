@@ -1,0 +1,125 @@
+body{
+  font-family: sofia, open-sans, sans-serif;
+  background-image: url("../images/bgimage3.jpg");
+  background-position: absolute;
+  background-size: 120%;
+  
+}
+
+h1{
+  text-align: center;
+  margin-left: 320px;
+  color: #ffffff;
+}
+
+.card {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 70px;
+    align-items: center;
+    box-shadow: #9741fc33 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+	position: center;
+  }
+  
+  .card__content {
+    background: #000000;
+    border-radius: 10px;
+    max-width: 100%;
+    height: 95%;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    
+  }
+
+.card h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 20px;
+}
+.card p{
+font-size: large;
+margin: 28px;
+}
+
+
+input {
+    width: 80%;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    color: #000000;
+    font-weight: 100;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    background: #adadad;
+    text-align: center  ;
+    position: relative;
+    text-align: center;
+} 
+
+button {
+
+    width: 50%;
+    color: #ffffff;
+    border: 1px solid #8707ff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    background-color: #000000;
+    cursor:pointer;
+	  margin: 30px;
+	  margin-left: 35px;
+	}
+
+.container{
+    display: flex;
+    max-width: 100rem;
+    max-height: 100rem;
+}
+
+table {
+    width: 60%;
+    height: 50%;
+    border: none;
+    padding: 10px;
+    /* margin: 150px; */
+    color: #ffffff;
+    font-weight: 100;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background: #4E4E4E;
+    text-align: center;
+    position: relative;
+    font-size: medium;
+  }
+  
+  /* Style the table headers */
+  th {
+    background-color:transparent;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    
+  }
+  
+  /* Style the table data */
+  td {
+    border: 1.5PX SOLID #000000;
+    padding: 10px;
+  }
+  
+  /* Change the table row background color on hover */
+  tbody tr:hover {
+    background-color: transparent;
+  }
+  

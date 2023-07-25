@@ -1,0 +1,127 @@
+body{
+    font-family: sofia, open-sans, sans-serif;
+    background-image: url("../images/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-size: cover;
+    
+}
+
+background-image{
+    opacity: 0.50;
+}
+
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 0 1rem 1rem 1rem;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.login-signup-form,
+.account-status {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #4e4e4e;
+    text-align: center;
+}
+
+.account-status {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 1rem;
+    text-align: left;
+    color: #ffffff;
+    font-weight:100;
+}
+
+.form-control label {
+    font-size: 1.8rem;
+}
+
+i{
+    font-size: 20px;
+    margin: 5px;
+
+}
+
+input {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    /* outline: none; */
+    color: #000000;
+    /* border: 2px solid #000000; */
+    border-radius: 10px;
+    background: #adadad;
+    text-align: left  ;
+    position: relative;
+
+}
+
+input:focus {
+    outline: none;
+    /* border: 0.3rem solid ; */
+    /* box-shadow: 2px 2px 15px #000000 inset; */
+
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+button {
+
+    width: 30%;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    background-color: #adadad;
+    cursor:pointer;
+    margin-left: 175px;
+}
+button:hover {
+    outline: none;
+    box-shadow: 2px 2px 15px #000000 inset;
+    
+
+}
+
+input[name="text1"] {
+    padding: 50px;
+    color: #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #adadad;
+  }
+@media only screen and (min-width: 614px) {
+
+    .login-signup-form,
+    .account-status {
+        margin: 0 20%;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    .login-signup-form,
+    .account-status {
+        margin: 0 30%;
+    }
+}
